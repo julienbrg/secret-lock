@@ -1,5 +1,5 @@
 {
-    "name": "w3hc-hardhat-template",
+    "name": "secret-lock",
     "version": "0.1.0",
     "main": "index.js",
     "type": "commonjs",
@@ -13,31 +13,10 @@
         "deploy:op-sepolia": "hardhat deploy --network op-sepolia --reset",
         "deploy:base-sepolia": "hardhat deploy --network base-sepolia --reset",
         "deploy:arbitrum-sepolia": "hardhat deploy --network arbitrum-sepolia --reset",
-        "mint:optimism": "hardhat mint --network optimism --amount",
-        "mint:base": "hardhat mint --network base --amount",
-        "mint:arbitrum": "hardhat mint --network arbitrum --amount",
-        "mint:sepolia": "hardhat mint --network sepolia --amount",
-        "mint:op-sepolia": "hardhat mint --network op-sepolia --amount",
-        "mint:base-sepolia": "hardhat mint --network base-sepolia --amount",
-        "mint:arbitrum-sepolia": "hardhat mint --network arbitrum-sepolia --amount",
-        "send:optimism": "hardhat send --wallet 0xD8a394e7d7894bDF2C57139fF17e5CBAa29Dd977 --network optimism --amount",
-        "send:base": "hardhat send --wallet 0xD8a394e7d7894bDF2C57139fF17e5CBAa29Dd977 --network base --amount",
-        "send:arbitrum": "hardhat send --wallet 0xD8a394e7d7894bDF2C57139fF17e5CBAa29Dd977 --network arbitrum --amount",
-        "send:sepolia": "hardhat send --wallet 0xD8a394e7d7894bDF2C57139fF17e5CBAa29Dd977 --network sepolia --amount",
-        "send:op-sepolia": "hardhat send --wallet 0xD8a394e7d7894bDF2C57139fF17e5CBAa29Dd977 --network op-sepolia --amount",
-        "send:base-sepolia": "hardhat send --wallet 0xD8a394e7d7894bDF2C57139fF17e5CBAa29Dd977 --network base-sepolia --amount",
-        "send:arbitrum-sepolia": "hardhat send --wallet 0xD8a394e7d7894bDF2C57139fF17e5CBAa29Dd977 --network arbitrum-sepolia --amount",
         "bal": "npx hardhat run scripts/check-my-balance.ts",
         "prettier": "prettier --write \"**/*.ts\"",
         "prettier-check": "prettier --check \"**/*.ts\""
     },
-    "keywords": [
-        "template",
-        "hardhat",
-        "solidity",
-        "web3"
-    ],
-    "author": "W3HC",
     "devDependencies": {
         "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
         "@nomicfoundation/hardhat-ethers": "^3.0.8",
